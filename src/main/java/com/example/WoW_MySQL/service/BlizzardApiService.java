@@ -20,8 +20,8 @@ public class BlizzardApiService {
     private final RestTemplate restTemplate = new RestTemplate();
     private final ObjectMapper objectMapper = new ObjectMapper(); // Jackson for JSON parsing
 
-    private final String clientId = "8f1dd4fcfa1f4ad69a6c022a1d5f28dc";
-    private final String clientSecret = "vj9htyJYEjJRdFZl4mfAeiI5p1Z8kSuZ";
+    private final String clientId = "CLIENT_ID_HERE";
+    private final String clientSecret = "CLIENT_SECRET_HERE";
 
     public BlizzardApiService(WoWCharacterRepository characterRepository) {
         this.characterRepository = characterRepository;
