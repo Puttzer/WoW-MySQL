@@ -61,9 +61,16 @@ mvn spring-boot:run
 ## 📡 API Usage
 ### ✅ **Fetch & Store a WoW Character**
 ```http
-GET http://localhost:8080/api/characters/fetch/eu/kilrogg/mcmemes
+GET http://localhost:8080/api/characters/fetch/eu/kilrogg/Roskiln
 ```
-This will retrieve **McMemes** from **Kilrogg (EU)** and store it in MySQL.
+This will retrieve **Roskiln** from **Kilrogg (EU)** and store it in MySQL.
+
+This isn't bound to this one character you can play around and see your own character if you want!
+
+```http
+GET http://localhost:8080/api/characters/fetch/SERVER/REALM/CHARACTER_NAME
+```
+---
 
 ### ✅ **Get All Stored Characters**
 ```http
